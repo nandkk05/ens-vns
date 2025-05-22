@@ -1,0 +1,27 @@
+{
+  "name": "ens-vns",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "CLI tool to check ENS (.eth) domain availability",
+  "bin": {
+    "ens-check": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ens",
+    "cli",
+    "ethereum",
+    "web3",
+    "ethers.js"
+  ],
+  "author": "Nand Kishor",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.8.0"
+  }
+}
