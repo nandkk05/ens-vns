@@ -1,6 +1,6 @@
 {
   "name": "ens-vns",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "CLI tool to check ENS (.eth) domain availability",
   "bin": {
@@ -23,5 +23,13 @@
     "commander": "^11.0.0",
     "dotenv": "^16.5.0",
     "ethers": "^6.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandkk05/ens-vns"
+  },
+  "bugs": {
+    "url": "https://github.com/nandkk05/ens-vns/issues"
+  },
+  "homepage": "https://github.com/nandkk05/ens-vns#readme"
 }

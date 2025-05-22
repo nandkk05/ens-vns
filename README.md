@@ -29,6 +29,11 @@ You can check multiple ENS names at once. Each name will return:
 
 ❌ Taken
 
+## Reverse ENS lookup
+Given an Ethereum address, find the associated ENS name:
+
+ens-check --reverse 0x1234567890abcdef1234567890abcdef12345678
+
 ## 🌐 RPC Configuration
 🔑 Required: Ethereum RPC URL (e.g., Infura)
 You must provide a valid Ethereum RPC endpoint for the tool to connect to the blockchain.
